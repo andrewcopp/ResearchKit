@@ -357,6 +357,13 @@
 @end
 
 
+@implementation ORKVisualAcuityResult
+
+//
+
+@end
+
+
 @implementation ORKTappingIntervalResult
 
 - (void)encodeWithCoder:(NSCoder *)aCoder {

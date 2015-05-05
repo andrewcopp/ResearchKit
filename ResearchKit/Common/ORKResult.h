@@ -398,6 +398,13 @@ ORK_CLASS_AVAILABLE
 
 @end
 
+/**
+ 
+ */
+ORK_CLASS_AVAILABLE
+@interface ORKVisualAcuityResult : ORKResult
+
+@end
 
 /**
  The `ORKFileResult` class is a result that references the location of a file produced

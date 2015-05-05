@@ -284,6 +284,13 @@ typedef NS_OPTIONS(NSUInteger, ORKPredefinedTaskOption) {
                                         requireReversal:(BOOL)requireReversal
                                                 options:(ORKPredefinedTaskOption)options;
 
+/**
+ 
+ */
++ (ORKOrderedTask *)visualAcuityTakeWithIdentifier:(NSString *)identifier
+                            intendedUseDescription:(nullable NSString *)intendedUseDescription
+                                           options:(ORKPredefinedTaskOption)options;
+
 @end
 
 NS_ASSUME_NONNULL_END

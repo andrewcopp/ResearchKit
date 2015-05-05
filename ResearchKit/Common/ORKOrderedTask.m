@@ -785,4 +785,11 @@ static void ORKStepArrayAddStep(NSMutableArray *array, ORKStep *step) {
     return task;
 }
 
++ (ORKOrderedTask *)visualAcuityTakeWithIdentifier:(NSString *)identifier
+                            intendedUseDescription:(nullable NSString *)intendedUseDescription
+                                           options:(ORKPredefinedTaskOption)options
+{
+    return nil;
+}
+
 @end
