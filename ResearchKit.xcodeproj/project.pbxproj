@@ -28,6 +28,8 @@
 		577858161AF80BC5000122DF /* ORKVisualAcuityStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 577858141AF80BC5000122DF /* ORKVisualAcuityStep.m */; };
 		577858191AF80C55000122DF /* ORKVisualAcuityStepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 577858171AF80C55000122DF /* ORKVisualAcuityStepViewController.h */; };
 		5778581A1AF80C55000122DF /* ORKVisualAcuityStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 577858181AF80C55000122DF /* ORKVisualAcuityStepViewController.m */; };
+		57EE2DC31AF8736A006FD5E1 /* ORKDistanceRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EE2DC11AF8736A006FD5E1 /* ORKDistanceRecorder.h */; };
+		57EE2DC41AF8736A006FD5E1 /* ORKDistanceRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57EE2DC21AF8736A006FD5E1 /* ORKDistanceRecorder.m */; };
 		618DA04E1A93D0D600E63AA8 /* ORKAccessibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 618DA0481A93D0D600E63AA8 /* ORKAccessibility.h */; };
 		618DA0501A93D0D600E63AA8 /* ORKAccessibilityFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 618DA0491A93D0D600E63AA8 /* ORKAccessibilityFunctions.h */; };
 		618DA0521A93D0D600E63AA8 /* ORKAccessibilityFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 618DA04A1A93D0D600E63AA8 /* ORKAccessibilityFunctions.m */; };
@@ -376,6 +378,8 @@
 		577858141AF80BC5000122DF /* ORKVisualAcuityStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStep.m; sourceTree = "<group>"; };
 		577858171AF80C55000122DF /* ORKVisualAcuityStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKVisualAcuityStepViewController.h; sourceTree = "<group>"; };
 		577858181AF80C55000122DF /* ORKVisualAcuityStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKVisualAcuityStepViewController.m; sourceTree = "<group>"; };
+		57EE2DC11AF8736A006FD5E1 /* ORKDistanceRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKDistanceRecorder.h; sourceTree = "<group>"; };
+		57EE2DC21AF8736A006FD5E1 /* ORKDistanceRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKDistanceRecorder.m; sourceTree = "<group>"; };
 		618DA0481A93D0D600E63AA8 /* ORKAccessibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAccessibility.h; sourceTree = "<group>"; };
 		618DA0491A93D0D600E63AA8 /* ORKAccessibilityFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORKAccessibilityFunctions.h; sourceTree = "<group>"; };
 		618DA04A1A93D0D600E63AA8 /* ORKAccessibilityFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORKAccessibilityFunctions.m; sourceTree = "<group>"; };
@@ -801,6 +805,15 @@
 				577858181AF80C55000122DF /* ORKVisualAcuityStepViewController.m */,
 			);
 			name = VisualAcuity;
+			sourceTree = "<group>";
+		};
+		57EE2DC01AF8731A006FD5E1 /* Distance */ = {
+			isa = PBXGroup;
+			children = (
+				57EE2DC11AF8736A006FD5E1 /* ORKDistanceRecorder.h */,
+				57EE2DC21AF8736A006FD5E1 /* ORKDistanceRecorder.m */,
+			);
+			name = Distance;
 			sourceTree = "<group>";
 		};
 		618DA0471A93D0D600E63AA8 /* Accessibility */ = {
@@ -1367,6 +1380,7 @@
 				B12EFF551AB216E700A80147 /* Accelerometer */,
 				B12EFF561AB216EE00A80147 /* Audio */,
 				B12EFF571AB216FD00A80147 /* Device Motion */,
+				57EE2DC01AF8731A006FD5E1 /* Distance */,
 				B12EFF581AB2170A00A80147 /* Health */,
 				B12EFF591AB2171900A80147 /* Location */,
 				B12EFF5A1AB2172100A80147 /* Pedometer */,
@@ -1684,6 +1698,7 @@
 				86C40DE21A8D7C5C00081FAC /* ORKVerticalContainerView_Internal.h in Headers */,
 				86B89ABE1AB3BFDB001626A4 /* ORKStepHeaderView_Internal.h in Headers */,
 				86C40C1E1A8D7C5C00081FAC /* ORKAudioStepViewController.h in Headers */,
+				57EE2DC31AF8736A006FD5E1 /* ORKDistanceRecorder.h in Headers */,
 				86AD91141AB7B97E00361FEB /* ORKQuestionStepView.h in Headers */,
 				86C40C621A8D7C5C00081FAC /* CLLocation+ORKJSONDictionary.h in Headers */,
 				86C40D801A8D7C5C00081FAC /* ORKSelectionSubTitleLabel.h in Headers */,
@@ -2025,6 +2040,7 @@
 				86C40CA21A8D7C5C00081FAC /* ORKHealthQuantityTypeRecorder.m in Sources */,
 				86C40DC01A8D7C5C00081FAC /* ORKTableViewCell.m in Sources */,
 				BC41942A1AE8453A00073D6B /* ORKObserver.m in Sources */,
+				57EE2DC41AF8736A006FD5E1 /* ORKDistanceRecorder.m in Sources */,
 				86C40C681A8D7C5C00081FAC /* CMAccelerometerData+ORKJSONDictionary.m in Sources */,
 				86C40C701A8D7C5C00081FAC /* CMMotionActivity+ORKJSONDictionary.m in Sources */,
 				86C40D7E1A8D7C5C00081FAC /* ORKScaleValueLabel.m in Sources */,
